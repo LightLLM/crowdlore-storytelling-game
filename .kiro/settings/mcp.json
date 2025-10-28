@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "devvit-mcp": {
+      "command": "npx",
+      "args": ["-y", "@devvit/mcp"]
+    },
+    "kiro-mcp": {
+      "command": "uvx",
+      "args": ["kiro-mcp-server@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
